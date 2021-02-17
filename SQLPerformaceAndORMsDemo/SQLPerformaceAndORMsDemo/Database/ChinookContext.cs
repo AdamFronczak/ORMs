@@ -36,7 +36,7 @@ namespace SQLPerformaceAndORMsDemo
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseLazyLoadingProxies()
-                    .UseChangeTrackingProxies()
+                    //.UseChangeTrackingProxies()
                     .UseSqlServer("Data Source=.;Initial Catalog=Chinook;Integrated Security=True");
             }
         }

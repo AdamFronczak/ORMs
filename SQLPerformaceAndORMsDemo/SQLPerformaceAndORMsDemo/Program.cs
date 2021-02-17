@@ -13,7 +13,7 @@ namespace SQLPerformaceAndORMsDemo
             {
                 //SelectNPlus1(context);
                 //UpdateRows(context);
-                LotsOfEntities(context);
+                //LotsOfEntities(context);
             }
         }
 
